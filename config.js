@@ -7,14 +7,14 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'BWM-XMD;;;H4sIAAAAAAAAA5VVa4+iSBT9K5P6qj3ykJdJJwuI4gNFARU3+6GAAqp5CoU2TvzvG7Q73dnZme3lU6WoOvfce8899QPkBa7RArVg9AOUFT5DgrolaUsERkBpwhBVoA8CSCAYgY0KHYqd7luyulir/UJpoUGonaGEm7JYBoM6q6ydGcFB4jyDWx+UjZdi/zeAp6111TIvfLlkaFWdT+GOW88jbcq33qkNXEcStKvZMz3dLp7BrUOEuMJ5pJUxylAF0wVqTYirr9EvVqo82RW75CVWFW5WrmW8Fw4wguMXBVUnRVhX5lVTiTfRvkZ/so5pQ9TO03RxNdbly96fUn7jqFodc62DBg0nxqIe7DNMPejXOMpRMAtQTjBpv1x3NDVIb2LnWJwd8zZZta1Yc6tE0U1Bc3qL2oJqrlPhsp5svkZc1XMebT3dKMxUnh8g7M2owBqvWOp0sI5q0mBqMs1jJ7Scz8TN6l0ryf+pu7gWoZIfqJXX1Oi6rfhG5UoSmMxBTmqPW3oDvF3aZ+6azr5G33LMdKr6kuk1uwPx7P3+vMnEkh/vhc3syuQlXAykOB6MU/mDPiRN9TuWtZ6yoiCeAgPvJ2i4Z+YFdS35gd7q2Ypqhr1ZbR6bhii6dVqzm/Jw3RWCiub7ukiLuFidRF+tCY+ogGOcWo0vm/AoX57vGSWonQVgRN/6oEIRrkkFCS7y+x5F9wEMzhbyK0Tu5QV2yzm4F4kNmb1G7WZP9Xx7Mr80C8vhbULyGnn2Ejb25DR8Bn1QVoWP6hoFOq5JUbUGqmsYoRqM/rx3qku6QllB0BwHYAQYbihwPCdSDMX/UX+/xJDUsCy/54iAPgirIjMQGJGqQX1wv8Dy1HCoaEN6Qmssq44phpLH8lhiFI6XVEnqUsweQW2coZrArAQjWmAZWqDYIXX7qw9y9Eoe+umyZuk+CHFVEydvyrSAwbu43n9C3y+anFht7qvdAlVgRH1sI0JwHtVdZk0OKz/GZ6R2eYBRCNMa3fogQGfsow4PLA/SQjiuDate+4zlrInsjJeXrnJxkT+OQAZKkgjpp4D3qKchFJkniQ25JykYegxCEhIZH3TleIxud+eXSlqEE8q1Xs/iTmH4OWSCKC/WAY/CKLmr4SEBVKHgvcoe9JOmtIsE5b/Bdd1kIbJmwI/FlFVf/arq5YPmtcWo+IT7kBYY/fiwS7UIOry9eTi4NG2CrltdnJ/UMGKEnwWRw+40sHXt28Sxna32TXUVbdtFfGtHhxUgAnFad+ZitPTZnCnaapH0hGQ6lZNIViMZfLTvfRwfcl/txQF9NZk4fNmybpAZR2dWFERcwjTebss4Zg+VcxX2wvYu93+CdCGJmwss3rEDhz6Ts18og7BMDft0YtrNRVxbDZ8s3ZNxZT2LvBwTndnYUJHIacaL/szNi2l9MDzsvCruRBNEncfYlaPnLtpDRp+DHVPcO6YSGy7MScHLbdPMuV6uj0lelKmzi6yjNU5F5cCk1WCpz9tdxK2n2XG39ZbMtZq4MzqcYpVGjTSlj5LqxPF0pmweRnE3qvTtgcBvI/wQXYjR3W/f2vGfbfvQP3Xrf8J4c/BfaEyxd2dT8q9ScRhSAaMfX6Y7dbFYhipTuo4DXTegedro0Q2FwK0b7DKFJCyqrLPQzIOgD1JYE/ljfv/FEliuD7JWLkuLQPI+9kC+fxsf3P4GXLDirZkIAAA=',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Ibrahim Adams",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Ibrahim Adams",              
+    OWNER_NAME: process.env.OWNER_NAME || "SIRENS",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " SIRENS",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'BMW_MD',
-    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/h2ydge.jpg',
+    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/bb374d9e92afbde2bbbfa.png',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
